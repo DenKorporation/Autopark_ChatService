@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BB267DA3-68EA-4B99-AC93-064CBDE4A743}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{92D22DF1-B445-4874-8E67-8E498136B4FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatService.DAL", "src\ChatService.DAL\ChatService.DAL.csproj", "{6F66ADCE-356A-40A1-B91D-B3A3B269906C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatService.BLL", "src\ChatService.BLL\ChatService.BLL.csproj", "{C6CF01C2-2FCC-415C-9209-3AB8D3C64023}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatService.API", "src\ChatService.API\ChatService.API.csproj", "{C39A33E7-CEF7-42CB-91B0-73769B56F892}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatService.UnitTests", "tests\ChatService.UnitTests\ChatService.UnitTests.csproj", "{AA49492B-8EF7-4FA3-897D-91B4E9DF75D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatService.IntegrationTests", "tests\ChatService.IntegrationTests\ChatService.IntegrationTests.csproj", "{EE993AC4-82C9-476C-9466-CACCEE546ED3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F66ADCE-356A-40A1-B91D-B3A3B269906C} = {BB267DA3-68EA-4B99-AC93-064CBDE4A743}
+		{C6CF01C2-2FCC-415C-9209-3AB8D3C64023} = {BB267DA3-68EA-4B99-AC93-064CBDE4A743}
+		{C39A33E7-CEF7-42CB-91B0-73769B56F892} = {BB267DA3-68EA-4B99-AC93-064CBDE4A743}
+		{AA49492B-8EF7-4FA3-897D-91B4E9DF75D0} = {92D22DF1-B445-4874-8E67-8E498136B4FA}
+		{EE993AC4-82C9-476C-9466-CACCEE546ED3} = {92D22DF1-B445-4874-8E67-8E498136B4FA}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F66ADCE-356A-40A1-B91D-B3A3B269906C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F66ADCE-356A-40A1-B91D-B3A3B269906C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F66ADCE-356A-40A1-B91D-B3A3B269906C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F66ADCE-356A-40A1-B91D-B3A3B269906C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6CF01C2-2FCC-415C-9209-3AB8D3C64023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6CF01C2-2FCC-415C-9209-3AB8D3C64023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6CF01C2-2FCC-415C-9209-3AB8D3C64023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6CF01C2-2FCC-415C-9209-3AB8D3C64023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C39A33E7-CEF7-42CB-91B0-73769B56F892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39A33E7-CEF7-42CB-91B0-73769B56F892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39A33E7-CEF7-42CB-91B0-73769B56F892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39A33E7-CEF7-42CB-91B0-73769B56F892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA49492B-8EF7-4FA3-897D-91B4E9DF75D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA49492B-8EF7-4FA3-897D-91B4E9DF75D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA49492B-8EF7-4FA3-897D-91B4E9DF75D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA49492B-8EF7-4FA3-897D-91B4E9DF75D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE993AC4-82C9-476C-9466-CACCEE546ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE993AC4-82C9-476C-9466-CACCEE546ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE993AC4-82C9-476C-9466-CACCEE546ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE993AC4-82C9-476C-9466-CACCEE546ED3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
