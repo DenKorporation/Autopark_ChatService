@@ -1,0 +1,25 @@
+﻿name: chat-service
+
+services:
+  chat.service:
+    image: ${Docker_registry}/chat.service.api
+    restart: unless-stopped
+    ports:
+      - "5400:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT}
+      - ASPNETCORE_HTTP_PORTS=80
+    depends_on:
+      chat.db:
+        condition: service_started
+  
+  chat.db:
+    image: mongo:latest
+    restart: unless-stopped
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${chat_db_user}
+      - MONGO_INITDB_ROOT_PASSWORD=${chat_db_password}
+    volumes:
+      - .containers/chat-db:/data/db
+    ports:
+      - "27017:27017"
