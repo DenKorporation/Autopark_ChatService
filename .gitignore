@@ -67,6 +67,7 @@ ScaffoldingReadMe.txt
 
 # StyleCop
 StyleCopReport.xml
+StyleCop.ruleset
 
 # Files built by Visual Studio
 *_i.c
@@ -397,3 +398,9 @@ FodyWeavers.xsd
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+# Docker Volume
+.containers/
+
+# Environment variables
+/.env
